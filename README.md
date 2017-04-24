@@ -20,8 +20,12 @@
     ```
     http://arduino.esp8266.com/staging/package_esp8266com_index.json
     ```
+    ![Texte alternatif](https://image.noelshack.com/fichiers/2017/17/1493056662-capture-arduino.png)
+    
   - Puis, aller dans `outils > Type de carte > Boards manager`, rechercher `esp8266`
+  ![Texte alternatif](https://image.noelshack.com/fichiers/2017/17/1493056662-sans-titre.png)
   - Cliquer sur "install"
+  ![Texte alternatif](https://image.noelshack.com/fichiers/2017/17/1493056662-capture-board.png)
   - Dans `outils > type de carte`, Vous devriez voir apparaitre une nouvelle option `Generic ESP8266 Module`
 * Flasher le code dans l'ESP8266 (Cette partie sera mise à jour lorsque notre propre code sera fonctionnel)
   -  Telecharger le code disponible sur ce dépot :
@@ -29,7 +33,8 @@
   -  Ouvrir le terminal Arduino et le serveur DHCP attribu une adresse IP, celle ci est affiché sur le terminal
 
 * Xlights (Ce tuto n'a pas but de développer en détail le logiciel xLights)
-  - ,
+  - Dans le menu `setup`, cliquer sur `ADD E1.31` et parametrer celui ci avec l'adresse IP obtenu sur l'ESP8266
+  ![Texte alternatif](https://image.noelshack.com/fichiers/2017/17/1493056661-capture.png )
 
 ### Todos
   + Software
@@ -39,9 +44,3 @@
 
 ### lien
 - https://www.fais-le-toi-meme.fr/fr/electronique/tutoriel/programmes-arduino-executes-sur-esp8266-arduino-ide
--
-
-
-
-
-
